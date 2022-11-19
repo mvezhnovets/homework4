@@ -1,0 +1,43 @@
+.frame1 {
+   width: 200px;
+   height: 100px;
+   background-color: brown;
+position: absolute;
+}
+.frame1_text {
+   width: 196px;
+   height: 96px;
+   border: solid 2px #ffffff;
+   color: #ffffff;
+   margin: 2px;
+   text-align: center;
+   padding-top: 36px;
+   box-sizing: border-box;
+}
+.frame2_table {
+   width: 200px;
+   height: 100px;
+   background-color: brown;
+   position: absolute;
+   margin-left: 300px;
+   }
+td {
+   margin: 200px;
+   color: #ffffff;
+   border: 2px solid #ffffff;
+   text-align: center;
+}
+
+.outline {
+   color: #ffffff;
+   text-align: center;
+   width: 200px;
+   height: 100px;
+   background-color: brown;
+   position: absolute;
+   margin-left: 600px;
+   outline: 2px solid #fff;
+   outline-offset: -4px;
+   padding-top: 36px;
+   box-sizing: border-box;
+}

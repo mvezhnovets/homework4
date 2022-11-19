@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap");
+
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+.wrap {
+  width: 1170px;
+  height: 540px;
+  position: relative;
+}
+.wrap__tabs {
+  width: 1170px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+}
+.wrap__tabs_tab1 {
+  position: absolute;
+  width: 202px;
+  height: 40px;
+  padding-top: 10px;
+  border-left: 1px solid #c6cbcd;
+  border-right: 1px solid #c6cbcd;
+  border-top: 1px solid #c6cbcd;
+  border-radius: 5px 5px 0px 0px;
+}
+.wrap__tabs_tab2 {
+  position: absolute;
+  width: 184px;
+  height: 40px;
+  padding-top: 10px;
+  margin-left: 202px;
+  border-bottom: 1px solid #c6cbcd;
+}
+.wrap__tabs_tab3 {
+  position: absolute;
+  width: 184px;
+  height: 40px;
+  margin-left: 386px;
+  padding-top: 10px;
+  border-bottom: 1px solid #c6cbcd;
+}
+
+.wrap__tabs_tab {
+  position: absolute;
+  width: 600px;
+  height: 40px;
+  margin-left: 570px;
+  border-bottom: 1px solid #c6cbcd;
+}
+.wrap__conteiner {
+  width: 1170px;
+  height: 501px;
+  position: absolute;
+  border-bottom: 1px solid #c6cbcd;
+  border-left: 1px solid #c6cbcd;
+  border-right: 1px solid #c6cbcd;
+}
+.wrap__title {
+  width: 570px;
+  height: 124px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  margin: 47px 500px 376px 100px;
+  position: absolute;
+  font-family: "Open Sans";
+  text-align: left;
+}
+.wrap__text {
+  width: 570px;
+  height: 210px;
+  margin: 152px 500px 139px 100px;
+  position: absolute;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.wrap__text_paragraph {
+  padding-top: 20px;
+  text-align: left;
+}
+.wrap__buttom {
+  width: 270px;
+  height: 58px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 389px 800px 54px 100px;
+  position: absolute;
+  background: #ec7979;
+}
+.wrap__buttom_text {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 18px;
+  color: #fff;
+  font-family: "Open Sans";
+}
+.wrap_image {
+  margin-left: 698px;
+}

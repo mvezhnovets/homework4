@@ -1,0 +1,15 @@
+.table {
+      padding: 7px;
+      width: 400px;
+      height: 200px;
+      border-collapse: collapse;
+      text-align: center;
+      background-color: aqua;
+}
+th, td {
+   border: 2px solid #ffffff;
+}
+td {
+      text-align: left;
+      padding-left: 5px;
+}

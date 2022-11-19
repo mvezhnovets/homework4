@@ -1,0 +1,12 @@
+.list {
+   border-radius: 8px;
+   background-color: brown;
+}
+ol {
+   list-style-type: none;
+   margin-left: -40px;
+}
+li {
+border: 1px solid #fff;
+padding-left: 15px;
+}
